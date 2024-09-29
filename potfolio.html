@@ -5,74 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MAUREEN ESTRADA BSIS - 3A</title>
 </head>
-<body style="background-image: url('images/image.png'); background-size: cover; color: white;">
-   <br />
-   <h3 align="center">
-    <font face="Lato" size="10">PROJECT PORTFOLIO</font>
-   </h3>
-   <br/><br/>
-   <h1>
-    <font face="Lato" size="10"></font>
-   </h1>
+<body background="images/image.png" text="white">
 
+   <nav>
+       <ul style="list-style-type: none; display: flex; justify-content: flex-start; padding: 10px;">
+           <li style="margin-right: 20px;"><a href="#home">About Me</a></li>
+           <li style="margin-right: 20px;"><a href="#projects">Projects</a></li>
+           <li style="margin-right: 20px;"><a href="#skills">Skills</a></li>
+           <li style="margin-right: 20px;"><a href="#contact">Contact</a></li>
+       </ul>
+   </nav>
+
+   <br />
+   <h3 align="center">PROJECT PORTFOLIO</h3>
+   <br/><br/>
+   
    <section id="home">
         <h2>About Me</h2>
-        <div>
-            <img src="images/profile/pic.png" width="400"> 
-            <div>
-                <p>Hi, I am Maureen Estrada, 3rd year BSIS Student in Technological University of the Philippines. I am also a content creator on Tiktok, mostly known as @noturpotatocrush. I've been doing content creation for 2 years.</p>
-                <p>My course of choice is far from the industry I am trying to fit in, but the choice was made with practical reasons. Studying a course, I know nothing about and interest in has been the difficult situation I've been in, but with my friends it is bearable.</p>
-            </div>
-        </div>
+        <table>
+            <tr>
+                <td><img src="images/profile/pic.png" width="400"></td>
+                <td>
+                    <p>Hi, I am Maureen Estrada, 3rd year BSIS Student in Technological University of the Philippines. I am also a content creator on Tiktok, mostly known as @noturpotatocrush. I've been doing content creation for 2 years.</p>
+                    <p>My course of choice is far from the industry I am trying to fit in, but the choice was made with practical reasons. Studying a course, I know nothing about and interest in has been the difficult situation I've been in, but with my friends it is bearable.</p>
+                </td>
+            </tr>
+        </table>
     </section>
 
-   <section id="projects">
+    <section id="projects">
         <h2>My Projects</h2>
 
-        <article>
-            <h3>Project 1: Poker Game</h3>
-            <img src="images/profile/stud.png" width="300">
-            <p>First project as a freshman. We were told to make our own game, and my group chose Poker.</p>
-            <p>Technologies used: <br> 1. C Programming Language: Known for performance and system control. <br>
-                2. Standard Libraries: Includes libraries like stdio.h for input/output, stdlib.h for random number generation, and math.h for mathematical functions.<br>
-                3. Data Structures: Uses arrays and floats to manage card values and player scores.<br>
-                4. Game Logic: Functions modularize tasks such as shuffling cards, calculating scores, and displaying results.<br>
-                5. Control Structures: Employs loops and conditionals for iteration and decision-making.<br>
-                6. User Interface: Provides a text-based interface for user interaction.<br>
-                7. Random Number Generation: Uses rand() and srand() for card generation.<br>
-                8.Delays: Implements a custom delay function for simulating pauses.</p>
-            <p>View on <a href="https://github.com/mauiestraduuuh/PokerGame" target="_blank">GitHub</a></p>
-        </article>              
-
-        <article>
-            <h3>Project 2: Minesweeper</h3>
-            <img src="images/profile/mine.png" width="300">
-            <p>We were instructed to do a minesweeper game in c++ using parameter passing and returning results.</p>
-            <p>Technologies used: <br> 1.Two-dimensional arrays to represent the game board and mines. <br>
-                2. Functions for modular organization, handling user input, and managing game logic. <br>
-                3. Random mine placement using rand() seeded with the current time. <br>
-                4. User interaction for gameplay, displaying the board, and checking win/loss conditions.</p>
-            <p>View on <a href="https://github.com/mauiestraduuuh/Minesweeper/tree/main" target="_blank">GitHub</a></p>
-        </article>
-
-        <article>
-            <h3>Project 3: Typing Tutor</h3>
-            <img src="images/profile/type.png" width="300">
-            <p>This project is for slow typers to improve their typing speed.</p>
-            <p>Technologies used: <br> 1. C Programming Language: The entire application is developed in C, employing its standard libraries for various functionalities.
-                <br> 2. File I/O: Utilizes file operations to read and write user data to a text file (users.txt).
-                <br> 3.Standard Libraries:
-                <br>stdio.h: For input and output operations.
-                <br>stdlib.h: For general utilities and random number generation.
-                <br>string.h: For string manipulation.
-                <br>time.h: For measuring time during typing tests.
-                <br>4. Control Structures: Implements loops and conditionals to manage user interactions and program flow.
-                <br>5. Random Phrase Generation: Uses rand() to create random typing phrases.</p>
-            <p>View on <a href="https://github.com/mauiestraduuuh/TypingTutor/tree/main" target="_blank">GitHub</a></p>
-        </article>
+        <table>
+            <tr>
+                <td>
+                    <h3>Project 1: Poker Game</h3>
+                    <img src="images/profile/stud.png" width="300">
+                    <p>First project as a freshman. We were told to make our own game, and my group chose Poker.</p>
+                    <p>Technologies used: C Programming, Standard Libraries, Data Structures, Game Logic, User Interface, Random Number Generation, Custom Delays.</p>
+                    <p>View on <a href="https://github.com/mauiestraduuuh/PokerGame" target="_blank">GitHub</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Project 2: Minesweeper</h3>
+                    <img src="images/profile/mine.png" width="300">
+                    <p>We were instructed to do a minesweeper game in C++ using parameter passing and returning results.</p>
+                    <p>Technologies used: Two-dimensional arrays, Functions, Random mine placement, User interaction.</p>
+                    <p>View on <a href="https://github.com/mauiestraduuuh/Minesweeper/tree/main" target="_blank">GitHub</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Project 3: Typing Tutor</h3>
+                    <img src="images/profile/type.png" width="300">
+                    <p>This project is for slow typers to improve their typing speed.</p>
+                    <p>Technologies used: C Programming, File I/O, Standard Libraries, Control Structures, Random Phrase Generation.</p>
+                    <p>View on <a href="https://github.com/mauiestraduuuh/TypingTutor/tree/main" target="_blank">GitHub</a></p>
+                </td>
+            </tr>
+        </table>
     </section>
 
-   <section id="skills">
+    <section id="skills">
         <h2>My Skills</h2>
         <ul>
             <li>Beginner: HTML, C, C++, JavaScript</li>
@@ -86,11 +81,11 @@
             iMessage: 09695575406<br>
             Email: maureen.estrada@tup.edu.ph
         </p>
-    </section>    
+    </section>
 
-   <footer>
+    <footer>
         <p>&copy; 2024 Maureen Estrada</p>
-        <p><a href="https://github.com/mauiestraduuuh" style="color: white;">GitHub</a></p>
-   </footer>
+        <p><a href="https://github.com/mauiestraduuuh" target="_blank">GitHub</a></p>
+    </footer>
 </body>
 </html>
